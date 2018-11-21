@@ -5,7 +5,8 @@
             
         }];
         [UIAlertController showWithTitle:@"提示"
-                                 message:message rootViewController:nil
+                                 message:nil
+                      rootViewController:nil
                        cancelButtonTitle:@"取消"
                        otherButtonTitles:@[@"确定"]
                             actionBlocks:^{
