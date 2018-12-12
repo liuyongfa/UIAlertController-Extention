@@ -15,6 +15,7 @@ Object-C调用：
                                 NSLog(@"确定");
                             }, nil];
 Swift调用：
+
         UIAlertController.showWithTitle("hello")
         UIAlertController.showWithTitle("hello", buttonTitle: "好的") {
             print("好的")
