@@ -15,21 +15,14 @@ Object-C调用：
                                 NSLog(@"确定");
                             }, nil];
 Swift调用：
-          UIAlertController.showWithTitle("hello")
-          
+        UIAlertController.showWithTitle("hello")
         UIAlertController.showWithTitle("hello", buttonTitle: "好的") {
-        
             print("好的")
-            
         }
         
         UIAlertController.showWithTitle("hello", message: nil, rootViewController: nil, cancelButtonTitle: "cancel", otherButtonTitles: ["1", "2"], actionBlocks:nil, {
-        
             print("1")
-            
         },{
-        
             print("2")
-            
         })
         
