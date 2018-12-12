@@ -1,6 +1,6 @@
 //
 //  UIAlertController+LYFExtention.m
-//  fdsafsaffasdfsa
+//  AlertExtention
 //
 //  Created by yongfaliu on 2018/11/16.
 //  Copyright © 2018 yongfaliu. All rights reserved.
