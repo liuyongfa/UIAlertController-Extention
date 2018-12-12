@@ -20,7 +20,6 @@ Swift调用：
         UIAlertController.showWithTitle("hello", buttonTitle: "好的") {
             print("好的")
         }
-        
         UIAlertController.showWithTitle("hello", message: nil, rootViewController: nil, cancelButtonTitle: "cancel", otherButtonTitles: ["1", "2"], actionBlocks:nil, {
             print("1")
         },{
